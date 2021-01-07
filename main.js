@@ -5,7 +5,9 @@ var app = new Vue({
         product: "Socks",
         altText: "A pair of warm, fuzzy socks",
         image: "./assets/vmSocks-green-onWhite.jpg",
-        url: "http://oklart.mine.nu"
+        url: "http://oklart.mine.nu",
+        inventory: 100,
+        onSale: true,
     }
 })
 
